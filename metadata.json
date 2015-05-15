@@ -1,0 +1,14 @@
+{
+  "name": "deanwilson-surround",
+  "version": "0.0.1",
+  "author": "deanwilson",
+  "summary": "Puppet function to add both a prefix and suffix to a string or each element of an array.",
+  "license": "GPL-2.0",
+  "source": "https://github.com/deanwilson/puppet-surround.git",
+  "project_page": "https://github.com/deanwilson/puppet-surround.git",
+  "issues_url": "https://github.com/deanwilson/puppet-surround/issues",
+  "description": "Puppet function to add both a prefix and suffix to a string or each element of an array.",
+  "dependencies": [
+  
+  ]
+}
