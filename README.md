@@ -1,5 +1,4 @@
-puppet-surround
-===============
+# puppet-surround #
 
 The surround() function adds a prefix and a suffix to either the string
 or each element of the array it is passed as a first argument.
@@ -19,3 +18,7 @@ A quick comparison of using surroud vs using stdlib:
     surround( $mystring, '!', '!')
 
     suffix( prefix( $mystring, '!'), '!')
+
+### License ###
+
+GPL v2.0 - [Dean Wilson](http://www.unixdaemon.net)

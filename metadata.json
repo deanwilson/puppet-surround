@@ -1,6 +1,6 @@
 {
   "name": "deanwilson-surround",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "deanwilson",
   "summary": "Puppet function to add both a prefix and suffix to a string or each element of an array.",
   "license": "GPL-2.0",
@@ -11,4 +11,22 @@
   "dependencies": [
   
   ]
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat"
+    },
+    {
+      "operatingsystem": "Ubuntu"
+    },
+    {
+      "operatingsystem": "Debian"
+    },
+    {
+      "operatingsystem": "Fedora"
+    },
+    {
+      "operatingsystem": "CentOS"
+    }
+  ]
+
 }
