@@ -10,7 +10,7 @@
   "description": "Puppet function to add both a prefix and suffix to a string or each element of an array.",
   "dependencies": [
   
-  ]
+  ],
   "operatingsystem_support": [
     {
       "operatingsystem": "RedHat"
