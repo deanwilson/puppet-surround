@@ -3,6 +3,10 @@
 The surround() function adds a prefix and a suffix to the string
 or each element of the array it is passed as a first argument.
 
+[![Build Status](https://travis-ci.org/deanwilson/puppet-surround.svg?branch=master)](https://travis-ci.org/deanwilson/puppet-surround)
+[![Puppet Forge](https://img.shields.io/puppetforge/v/deanwilson/puppet-surround.svg)](https://forge.puppetlabs.com/deanwilson/puppet-surround)
+
+
 A basic string example:
 
     surround('mystring', '+', '=')
