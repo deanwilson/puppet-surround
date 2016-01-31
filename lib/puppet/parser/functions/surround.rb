@@ -1,5 +1,4 @@
-Puppet::Parser::Functions.newfunction(:surround, :type => :rvalue, :doc => <<-EOD
-
+Puppet::Parser::Functions.newfunction(:surround, type: :rvalue, doc: <<-EOD
   The surround() function adds a prefix and a suffix to either the string
   or each element of the array it is passed as a first argument.
 
@@ -16,10 +15,9 @@ Puppet::Parser::Functions.newfunction(:surround, :type => :rvalue, :doc => <<-EO
 
   EOD
   ) do |args|
-
   if args.length != 3
-    raise ArgumentError, "surround(): Wrong number of arguments " +
-                         "expected surround(<value>, <prefix>, <suffix>)"
+    raise ArgumentError, 'surround(): Wrong number of arguments ' +
+                         'expected surround(<value>, <prefix>, <suffix>)'
   end
 
   original, prefix, suffix = args
@@ -32,7 +30,7 @@ Puppet::Parser::Functions.newfunction(:surround, :type => :rvalue, :doc => <<-EO
       prefix.to_s + i.to_s + suffix.to_s
     end
   else
-    raise ArgumentError, "surround(): expected first argument to be an " +
+    raise ArgumentError, 'surround(): expected first argument to be an ' +
                          "Array or String, got #{original.inspect}"
   end
 
